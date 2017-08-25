@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/the2kb/FlavourOrder/issues"
   },
-  "homepage": "https://github.com/the2kb/FlavourOrder#readme"
+  "homepage": "https://github.com/the2kb/FlavourOrder#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
 }
