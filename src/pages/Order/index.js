@@ -40,7 +40,7 @@ export default class Order extends React.Component {
                 onChange={e => {
                   const arr = [];
 
-                  let count = +e.target.value || 0;
+                  let count = Math.abs(parseInt(+e.target.value || 0, 10));
                   if (count > 20) {
                     count = 20;
                   }
