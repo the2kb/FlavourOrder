@@ -4,7 +4,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div style={{padding: '10px 0'}}>
+      <div>
         {this.props.children}
       </div>
     );

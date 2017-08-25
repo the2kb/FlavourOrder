@@ -3,7 +3,6 @@ import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux';
 import callsActions from '../../actions/callsList';
 
-import './styles.scss';
 
 @connect(
   state => ({
@@ -13,12 +12,16 @@ import './styles.scss';
     // actions: bindActionCreators({...callsActions}, dispatch)
   })
 )
-export default class Calls extends React.Component {
+export default class Page404 extends React.Component {
 
   render() {
 
     return (
-      <div>Hello world</div>
+      <div>
+        <div>
+          <h1>Error 404</h1>
+        </div>
+      </div>
     )
   };
 }
